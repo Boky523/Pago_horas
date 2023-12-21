@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="icon" type="image/png" href="./recursos/favicon_azul.png">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa vehiculos</title>
+</head>
+
+<body>
+
+
+
+    <div class="con_img">
+        <img src="./recursos/paga.png" alt="" id="imagen_paga">
+    </div>
+    <div class="titulo">
+        <h3>Administracion de pagos</h3>
+    </div>
+    <div class="contenedor">
+
+
+
+        <p class="horas_p" style="margin-top: 20%;">Horas trabajadas</p>
+        <input type="text" id="horas">
+
+        <p style="margin-top: 20%;">Categoria</p>
+        <select id="categoria">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+
+
+
+
+        <button onclick="calcular()">calcular</button>
+
+    </div>
+
+    <div id="respuesta">$...</div>
+
+    <div style="height: 20%;">
+        <img id="ima" class="billete_in" src="./recursos/billete.png" alt="">
+    </div>
+
+
+
+</body>
+<script src="java.js"></script>
+
+</html>
